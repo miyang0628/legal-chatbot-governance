@@ -1,0 +1,5 @@
+﻿비교쌍,Pearson r,p-value,유의성,n
+자체 G1 vs DeepEval Correctness,0.667,0.0,***,200
+자체 G1 vs DeepEval Safety,0.202,0.0041,**,200
+자체 G1 vs DeepEval Hallucination,-0.489,0.0,***,200
+DeepEval Correctness vs Safety,0.225,0.0013,**,200

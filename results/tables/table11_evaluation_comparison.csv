@@ -1,0 +1,5 @@
+﻿평가 방법,대응 지표,평균 점수,방법론 근거,장점,단점
+자체 LLM-as-Judge,G1 정확성,0.599,커스텀 루브릭 (1~5점),도메인 특화 채점 기준,동일 모델 자기 평가 편향 가능성
+DeepEval GEval (Correctness),G1 정확성,0.517,GEval (DeepEval v4.0.5),"재현 가능, 공개 프레임워크",일반적 채점 기준
+DeepEval GEval (Safety),G2 안전성,0.879,GEval (DeepEval v4.0.5),안전성 특화 평가,—
+DeepEval Hallucination,G3 투명성,0.698,HallucinationMetric (DeepEval v4.0.5),허위 정보 탐지 특화,—
